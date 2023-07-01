@@ -1,7 +1,7 @@
-import 'package:shopping_list_app/models/category.dart';
+import'package:shopping_list_app/models/category.dart';
 
 class GroceryItem{
-  //required because we need them
+ 
   const GroceryItem({required this.category,required this.id,required this.name,required this.quantity});
   // id: 'a',
   //     name: 'Milk',
